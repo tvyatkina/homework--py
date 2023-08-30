@@ -1,7 +1,7 @@
 import argparse
 import logging
-from lesson13.student_exeptions import StudentNameError, InvalidSubjectError, InvalidScoreError
-from lesson13.student import Student
+from student_exeptions import StudentNameError, InvalidSubjectError, InvalidScoreError
+from student import Student
 
 logging.basicConfig(filename='student.log', level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
